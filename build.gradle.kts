@@ -5,7 +5,6 @@ plugins {
 }
 
 allprojects {
-
     tasks.withType<Test>().configureEach {
         useJUnitPlatform()
         predictiveSelection {
