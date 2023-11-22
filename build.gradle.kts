@@ -9,7 +9,6 @@ allprojects {
     tasks.withType<Test>().configureEach {
         useJUnitPlatform()
         predictiveSelection {
-            isEnabled = true
             enabled.set(true)
         }
     }
