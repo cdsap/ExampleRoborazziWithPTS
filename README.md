@@ -1,5 +1,9 @@
 ## Example Predictive Test Selection with Roborazzi
+Predictive Test Selection
+https://gradle.com/gradle-enterprise-solutions/predictive-test-selection/
 
+Roborazzi
+https://github.com/takahirom/roborazzi
 ### Usage
 `settings.gradle.kts`:
 ```kotlin
