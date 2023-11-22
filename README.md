@@ -1,7 +1,7 @@
 ## Example Predictive Test Selection with Roborazzi
 
 ### Usage
-`settings.gradle`:
+`settings.gradle.kts`:
 ```kotlin
 plugins {
     id("com.gradle.common-custom-user-data-gradle-plugin") version "<latest-version>"
@@ -69,4 +69,5 @@ class RuleTestWithPath {
 ![resources/testskip.png](resources/testskip.png)
 Build scan: https://ge.solutions-team.gradle.com/s/jfagqexif3huw/tests/overview
 
-
+#### Local Build with tests skipped
+Build scan: https://ge.solutions-team.gradle.com/s/efrgeqs2ivrt4
