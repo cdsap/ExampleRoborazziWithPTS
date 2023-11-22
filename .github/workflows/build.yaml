@@ -41,7 +41,7 @@ jobs:
                   branch: main
 
             - name: test debug
-              id: test debug
+              id: test-debug
               run: |
                   ./gradlew testDebug --stacktrace --info
               env:
